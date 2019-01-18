@@ -1,0 +1,30 @@
+# Project healthy checklist
+- [ ] ESLint 0/5
+- [ ] CI/CD 0/5
+- [ ] Typescript 0/5
+- [ ] Unit tests 0/5
+- [ ] Integration tests 0/5
+- [ ] E2E tests 0/5
+- [ ] JSDoc/TSDoc 0/5
+- [ ] API Docs 0/5
+- [ ] README.md 0/5
+- [ ] Difference test/integration/production 0/5
+- [ ] Mocks - can work without network 0/5
+- [ ] Storybook 0/5
+- [ ] Build time 0/5
+- [ ] Project management/workflow 0/5
+- [ ] UI Kit 0/5
+- [ ] Split code on external lib 0/5
+- [ ] Outdated packages 0/5
+- [ ] Business analytics 0/5
+- [ ] System health monitoring 0/5
+- [ ] System failure resistance 0/5
+- [ ] Features toggle system 0/5
+- Architecture:
+  - [ ] Containers/components 0/5
+  - [ ] Store/model 0/5
+  - [ ] API communication 0/5
+  - [ ] Tools (lodash/ramda/rxjs) 0/5
+  - [ ] Complexity 0/5
+  - [ ] Duplication 0/5
+  
