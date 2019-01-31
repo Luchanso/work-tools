@@ -36,17 +36,20 @@
     - [ ] User failed workflow
     - [ ] Mocks
 - [ ] Redux store
-  - [ ] Action types
-  - [ ] State types (typescript require)
-  - [ ] Actions/ActionCreators/AsyncActions
+  - [ ] ActionsTypes
+  - [ ] Actions
   - [ ] Reducers
+  - [ ] AsyncActions
+    - [ ] Selectors
 - [ ] Components/Containers
+  - [ ] Logics
+    - [ ] Selectors
+    - [ ] AsyncActions
   - [ ] Layout
     - [ ] Mobile version
     - [ ] Tablet version
     - [ ] Desktop version
     - [ ] First layout from Server Side Rendering
-  - [ ] Logics
 
 ## 3. Definition to deploy production
 - [ ] Work in
