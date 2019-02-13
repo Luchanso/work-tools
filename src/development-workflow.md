@@ -37,7 +37,7 @@
     - [ ] Mocks
 - [ ] Redux store
   - [ ] ActionsTypes
-  - [ ] Actions
+  - [ ] ActionCreators
   - [ ] Reducers
   - [ ] AsyncActions
     - [ ] Selectors
