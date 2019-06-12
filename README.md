@@ -1,8 +1,17 @@
 # work-tools
-Tools for work
+Tools, recipes, checklist for work
 
-# debug-grid.css
-[Link](/src/debug-grid.css). Grid for debug pixel perfect layout.
+## checklists
 
-# development-flow.md
-[Link](/src/development-workflow.md). Workflow front-end development.
+[development-workflow.md](/checklists/development-workflow.md) - workflow about front-end development.
+
+[project-healthy.md](/checklists/project-healthy.md) - project health
+
+## recipes
+
+[conventional-commits.md](/recipes/conventional-commits.md) - conventinal commits and release automation
+
+
+## tools
+
+[debug-grid.css](/tools/debug-grid.css) - grid for debug pixel perfect layout.

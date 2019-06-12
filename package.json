@@ -1,7 +1,6 @@
 {
   "name": "work-tools",
-  "version": "0.1.0",
-  "main": "index.js",
+  "version": "1.0.0",
   "repository": "git@github.com:Luchanso/work-tools.git",
   "author": "Luchanskiy Oleg <luchansodev@gmail.com>",
   "license": "MIT",
