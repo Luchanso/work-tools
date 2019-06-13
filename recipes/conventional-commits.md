@@ -1,7 +1,7 @@
 Recipe about conventinal commits and auto release tools.
 This tools for checking commit message and making autorelease.
 
-Example [pull request](https://github.com/Luchanso/dependencies-heatmap/pull/6)
+Example [pull request](https://github.com/Luchanso/dependencies-heatmap/pull/11/files)
 
 ## Install
 ```sh
@@ -34,7 +34,23 @@ npm publish
 ## Travis configuration
 Autorelease only
 ```yml
-# TODO: Дописать
+language: node_js
+node_js:
+  - "11"
+
+jobs:
+  include:
+    - name: install and test
+      install: yarn --frozen-lockfile
+    - name: deploy
+      install: yarn --frozen-lockfile
+      script:
+        - git remote set-url origin https://${GH_TOKEN}@github.com/Luchanso/dependencies-heatmap.git
+        - yarn release
+        - git log -5
+        - git push --follow-tags origin HEAD:master --verbose
+      if: >
+        branch = master AND commit_message =~ /^((?!chore\(release\): \d\.\d\.\d).)*$/ AND type = push
 ```
 
 ## Links
